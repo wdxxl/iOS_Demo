@@ -18,4 +18,14 @@ class MenuTableViewController: UITableViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        var destinationVC: UIViewController!
+        if indexPath.row == 1 {
+            destinationVC = storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
+        } else {
+            destinationVC = storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        }
+        sideMenuController()?.setContentViewController(destinationVC)
+    }
 }

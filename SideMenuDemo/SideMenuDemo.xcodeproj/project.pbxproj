@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		11378969204151CC00DE3B20 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11378968204151CC00DE3B20 /* MenuTableViewController.swift */; };
+		1154B89D204160AE00317FC0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1154B89C204160AE00317FC0 /* SecondViewController.swift */; };
 		119E70392041557F005A4D3C /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E70372041557F005A4D3C /* ENSideMenu.swift */; };
 		119E703A2041557F005A4D3C /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119E70382041557F005A4D3C /* ENSideMenuNavigationController.swift */; };
 		11DD6B58204148D600BFC025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DD6B57204148D600BFC025 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		11378968204151CC00DE3B20 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		1154B89C204160AE00317FC0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		119E70372041557F005A4D3C /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
 		119E70382041557F005A4D3C /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
 		11DD6B54204148D600BFC025 /* SideMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +72,7 @@
 				11DD6B59204148D600BFC025 /* ViewController.swift */,
 				11DD6B5B204148D600BFC025 /* Main.storyboard */,
 				11378968204151CC00DE3B20 /* MenuTableViewController.swift */,
+				1154B89C204160AE00317FC0 /* SecondViewController.swift */,
 				11DD6B702041498800BFC025 /* SideNavigationController.swift */,
 				11DD6B61204148D600BFC025 /* Assets.xcassets */,
 				11DD6B63204148D600BFC025 /* LaunchScreen.storyboard */,
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1154B89D204160AE00317FC0 /* SecondViewController.swift in Sources */,
 				119E70392041557F005A4D3C /* ENSideMenu.swift in Sources */,
 				11378969204151CC00DE3B20 /* MenuTableViewController.swift in Sources */,
 				11DD6B5A204148D600BFC025 /* ViewController.swift in Sources */,
